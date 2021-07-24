@@ -1,0 +1,98 @@
+@font-face {
+    font-family: vazir;
+    src: url("../fonts/vazir/Vazir-Medium.ttf");
+}
+
+@font-face {
+    font-family: vazir-bold;
+    src: url("../fonts/vazir/Vazir-Bold.ttf");
+}
+
+@font-face {
+    font-family: vazir-thin;
+    src: url("../fonts/vazir/Vazir-Thin.ttf");
+}
+
+@font-face {
+    font-family: vazir-light;
+    src: url("../fonts/vazir/Vazir-Light.ttf");
+}
+
+body {
+    font-family: vazir;
+}
+
+header {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+header > h2 {
+    margin-bottom: -0.3vw;
+}
+
+header > p {
+    font-family: vazir-light;
+    display: block;
+    margin: 0 auto;
+}
+
+.to-do {
+    margin-top: 1vw;
+}
+
+/* mediumspringgreen */
+.to-do-inputs {
+    margin-bottom: 2vw;
+    display: block;
+    margin: 0px auto;
+    border: gray solid 1px;
+    border-radius: 25px;
+    font-family: vazir-bold;
+    text-align: center;
+    width: 20vw;
+    height: 2.2vw;
+}
+
+.add-to-do {
+    display: block;
+    margin: 0px auto;
+    background-color: mediumspringgreen;
+    color: white;
+    font-family: vazir-bold;
+    border: mediumspringgreen solid 1px;
+    border-radius: 25px;
+    width: 20vw;
+    height: 2.2vw;
+    cursor: pointer;
+    transition: font-size 0.7s, width 0.7s, height 0.7s;
+}
+
+.add-to-do:hover {
+    width: 21vw;
+    height: 3.2vw;
+    font-size: 1.4vw;
+}
+
+.to-dos {
+    width: fit-content;
+    margin: auto;
+    margin-top: 2vw;
+}
+
+.checkbox-parts {
+    width: 1.3vw;
+    height: 1.3vw;
+    text-align: center;
+}
+
+footer > p {
+    margin-top: 2vw;
+    text-align: center;
+}
+
+footer > p > a > img {
+    width: 1.5vw;
+    height: 1.5vw;
+}
